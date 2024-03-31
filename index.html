@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BN cajero</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+    <script defer src="cuentas.js"></script>
+</head>
+<body>
+        <header class="texto">
+            <h1>Retire su dinero y depositelo   de la forma más facíl 
+                y sin ningun problema con BN servicios 
+            </h1>
+        </header>
+
+        <div class="container_cajero">
+            <div class="container_cajero1" id="container_cajero1">
+             <h1 class="taitle">Dijite su  contraseña y usuario </h1>
+             <h2>usuario</h2>
+             <input type="text" id="usuario_Name">
+
+             <h2>contraseña</h2>
+             <input type="password" id="contraseña">
+
+             <h2 id="contraseña_incorecta"></h2>
+
+             <hr>
+             <button class="btn_1" onclick="inicioSecion() ">iniciar secion</button>
+             <h1 class="taitle" id="taitle"></h1>
+            </div>
+
+            <!-- retiro y deposito                     -->
+
+
+            <div class="container_cajero2" id="container_cajero2">
+
+   
+                <h1 class="taitle" class="nombre" id="usuario_name"></h1>
+            
+                         <h1 class="taitle" id="sutrao"></h1>
+                         <h1 class="taitle" id="sutrao1"></h1>
+                         <button class="referfc1" id="btm_1" onclick="deseas()">Si</button>
+                         <h1 id="cuentasf" class="cuentasf">deseas ver el estado de cuenta</h1>
+                         <button onclick="refrescar()" class="referfc2" id="desea23">No</button>
+                        <h1 class="taitle_1" id="taitle_1">tu estado de cuenta es </h1>
+                        <h1 id="saldo21"></h1>
+                        
+                        <div id="caja_btn">
+                          <h1 class="taitle" id="desea">deseas retirar o depositar</h1>
+                           <button id="btn_depositar1" id="btn_d" onclick="btr_deposito()"> 
+                          depositar
+                           </button>
+
+                            <button id="btn-retirar1" onclick="btr_retiro()">
+                           retirar
+                          </button>
+                         </div>
+                         <div class="deposito" id="retiro">
+                               <button id="btn_depositar" onclick="Depositar()"> 
+                                 depositar
+                              </button>
+                                  
+                              <input type="text" id="monto_deposito" placeholder="ingrese un monto">
+            
+                              <button id="btn-retirar" onclick="retirar()">
+                                retirar
+                              </button>
+                                <br>
+                              <button onclick="refrescar()" class="referfc">
+                                cambiar de user
+                              </button>
+                         </div>
+                     </div>
+               </div>
+
+
+        </div>
+</body>
+</html>

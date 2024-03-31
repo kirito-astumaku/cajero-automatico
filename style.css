@@ -1,0 +1,301 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 1.4%;
+    background-size:cover;
+    background-image: url(nature-4435420_1920.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+
+.texto{
+    border-radius: 5px 30px 5px 30px;
+    border:3px rgb(255, 255, 255) solid ;
+    width: 35%;
+    padding: 1%;
+}
+
+
+.container_cajero{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.container_cajero1{
+    position: absolute;
+    text-align: center;
+    border:3px rgb(255, 255, 255) solid ;
+    right: 35%;
+    top: 140px;
+    padding: 3%;
+    border-radius: 5px 30px 5px 30px;
+    text-decoration: dotted;
+    width: 30%;
+    box-shadow: black 9px 9px 5px 5px;
+    display: block;
+}
+
+.container_cajero2{
+    position: absolute;
+    text-align: center;
+    border:3px rgb(255, 255, 255) solid ;
+    right: 35%;
+    top: 140px;
+    padding: 3%;
+    border-radius: 5px 30px 5px 30px;
+    text-decoration: dotted;
+    width: 30%;
+    box-shadow: black 9px 9px 5px 5px;
+    display: none;
+}
+
+.btn_1{
+    padding: 3%;
+    background-color:green;
+    border-radius: 400px;
+    color: white;
+    font-size: 20px;
+}
+
+.btn_1:hover{
+    background-color:rgba(0, 0, 0, 0.467);
+    cursor: pointer;
+}
+
+#btn_depositar{
+    padding: 3%;
+    background-color:green;
+    border-radius: 400px;
+    color: white;
+    font-size: 20px;
+    display: block;
+    position: absolute;
+    top: 84%;
+    left: 18%;
+}
+
+#btn-retirar{
+    padding: 3%;
+    background-color:green;
+    border-radius: 400px;
+    color: white;
+    font-size: 20px;
+    display: block;
+    position: absolute;
+    top: 84%;
+    left: 20%;
+}
+
+#btn-retirar:hover{
+    background-color:rgba(0, 0, 0, 0.467);
+    cursor: pointer;
+}
+
+#btn_depositar:hover{
+    background-color:rgba(0, 0, 0, 0.467);
+    cursor: pointer;
+}
+
+
+#btn_depositar1{
+    padding: 3%;
+    background:green;
+    border-radius: 400px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#btn-retirar1{
+    padding: 3%;
+    background-color:green;
+    border-radius: 400px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* #btn-retirar1:hover{
+    background-color:rgba(0, 0, 0, 0.467);
+    cursor: pointer;
+}
+
+#btn_depositar1:hover{
+    background-color:rgba(0, 0, 0, 0.467);
+    cursor: pointer;
+} */
+
+
+#usuario_Name{
+   padding: 2%;
+   border-radius: 20px;
+   font-size: 20px;
+}
+
+#contraseña_incorecta{
+    display: block;
+}
+
+
+#contraseña{
+    padding: 2%;
+   border-radius: 20px;
+   font-size: 20px;
+}
+
+.nombre{
+    font-size: 35px;
+}
+
+.saldo{
+    font-size: 35px;
+}
+
+.taitle{
+    color: rgb(255, 249, 249);
+    font-size: 30px;
+    background: rgba(70, 70, 70, 0.472);
+    border-radius: 20px;
+     /* color: rgba(15, 192, 27, 0.483);  */
+}
+
+#monto_deposito{
+    padding: 2%;
+    border-radius: 20px;
+    font-size: 20px;
+    position: absolute;
+    top: 85%;
+    left: 35%;
+    cursor: pointer;
+}
+
+#retiro{
+    display: none;
+}
+
+#caja_btn{
+    display: none;
+    /* color: rgba(0, 0, 0, 0.39); */
+}
+
+
+
+.referfc{
+    padding: 3%;
+    background-color:green;
+    border-radius: 50%;
+    color: white;
+    font-size: 15px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.referfc1{
+    padding: 3%;
+    background-color:green;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    cursor: pointer;
+    text-align: center;
+}
+.referfc1:hover{
+    background-color:rgba(0, 0, 0, 0.467);
+    cursor: pointer;
+}
+
+.referfc2{
+    padding: 3%;
+    background-color:green;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+}
+
+.referfc2:hover{
+    background-color:rgba(0, 0, 0, 0.467);
+    cursor: pointer;
+    /* color: rgba(255, 0, 0, 0.371); */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  pajina 2*/
+
+
+
+.deposito{
+    display: none;
+}
+
+.btn{
+    padding: 3%;
+    background-color:green;
+    border-radius: 400px;
+    color: white;
+    font-size: 20px;
+    display: block;
+}
+
+
+.taitle_1{
+    color: rgb(255, 249, 249);
+    font-size: 30px;
+    background: rgba(70, 70, 70, 0.472);
+    border-radius: 20px;
+    display: none;
+}
+
+.tatle_2{
+    color: rgb(255, 249, 249);
+    font-size: 30px;
+    background: rgba(70, 70, 70, 0.472);
+    border-radius: 20px;
+    display: none;
+}
+
+
+
+
+
+
+
