@@ -163,12 +163,8 @@ function deseas(){
 
 
 
-
-
-                               /* DEPOSITAR Y RETIAR */
-                                   /* deposito */
-
-
+/*------------------------------------ DEPOSITAR Y RETIAR ----------------------------------------------------*/
+                                         /* deposito*/
 
 
                                    
