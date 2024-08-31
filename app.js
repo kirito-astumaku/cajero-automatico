@@ -171,19 +171,21 @@ function deseas(){
 
 Depositar = () => {
     if (document.getElementById('usuario_Name').value === cuenta_1.nombre){
-        if(cuenta_1.saldo >= -1 && cuenta_1.saldo<=980){
             const monto_deposito = parseFloat(document.getElementById('monto_deposito').value);
-            cuenta_1.saldo += monto_deposito
+            if(saldo<=9999){
+               saldo[0] += monto_deposito
             saldo21.innerHTML = cuenta_1.saldo + "$"
             desea.innerHTML = "deposito realizado con exito"
-            document.getElementById('desea').style.background = 'rgba(15, 192, 27, 0.483)'
-         }else if (cuenta_1.saldo >=990 && cuenta_1.saldo <=1001 ) {
-                desea.innerHTML = `no se puede depositar mas de 1000 $ en la cuenta`
+            document.getElementById('desea').style.background = 'rgba(15, 192, 27, 0.483)' 
+            }else{
+                desea.innerHTML = `no se puede depositar mas de 10000 $ en la cuenta`
                 document.getElementById('desea').style.background = 'rgba(192, 27, 15, 0.483)'
                  cuenta_1.saldo = 990
-            }else {
-                saldo21.innerHTML = cuenta_1.saldo + "$"
-        }
+            }
+            
+
+                
+           
     } 
        
     if (document.getElementById('usuario_Name').value === cuenta_2.nombre){
@@ -276,7 +278,7 @@ Depositar = () => {
 retirar = () => {
     if (document.getElementById('usuario_Name').value === cuenta_1.nombre){
         const monto_deposito = parseFloat(document.getElementById('monto_deposito').value);
-        cuenta_1.saldo -= monto_deposito
+        saldo[0] -= monto_deposito
         saldo21.innerHTML = cuenta_1.saldo + "$"
         if (cuenta_1.saldo <= -1) {
             desea.innerHTML = 'fondo insuficientes'

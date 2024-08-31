@@ -15,6 +15,16 @@ body{
     
 }
 
+.cuentas{
+    padding: 3%;
+    width: 15%;
+    background-color: rgba(0, 0, 0, 0.465);
+    border-radius: 50px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
 
 .texto{
     border-radius: 5px 30px 5px 30px;

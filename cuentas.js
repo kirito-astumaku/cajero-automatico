@@ -2,11 +2,13 @@
 
 /* cuentas de los usuarios  */
 
+const saldo = [50]
+console.log(saldo)
 
 let cuenta_1 = {
    nombre:'jonklin',
    contraseña:79518, 
-   saldo:90,
+   saldo:saldo,
 }
 
 let cuenta_2 = {
